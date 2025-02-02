@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import { getAnimeList } from "../Services/Api";
 import { Link } from "react-router-dom";
 import AnimeCarousel from "../Components/AnimeCourosel";
-import './Home.css';
 import Footer from "./Footer";
 
 function Home() {
@@ -18,7 +17,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-6 flex flex-col">
+    <div className="min-h-screen bg-gray-900 text-white p-2 flex flex-col">
       {/* Anime Carousel */}
       {animeList.length > 0 && <AnimeCarousel animeList={animeList.slice(0, 5)} />}
 
@@ -35,7 +34,7 @@ function Home() {
                 alt={anime.title}
                 className="object-cover w-full h-full transition-all duration-300 img-desktop"
               />
-              <h3 className="text-center text-lg font-semibold p-3 group-hover:text-blue-500">
+              <h3 className="text-center text-sm sm:text-lg font-semibold p-3 group-hover:text-blue-500">
                 {anime.title}
               </h3>
             </div>

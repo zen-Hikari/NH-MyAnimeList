@@ -47,9 +47,9 @@ const AnimeCarousel = () => {
             ></div>
 
             {/* Container Utama */}
-            <div className="relative z-10 flex flex-col md:flex-row h-full w-full items-center px-10 md:px-20 bg-gradient-to-r from-gray-900/90 via-gray-900/50 to-transparent">
+            <div className="relative z-10 flex flex-col md:flex-row h-full w-full items-center px-5 md:px-20 bg-gradient-to-r from-gray-900/90 via-gray-900/50 to-transparent">
               {/* Text Anime */}
-              <div className="w-full md:w-1/2 text-white text-center md:text-left">
+              <div className="w-full mt-10 sm:mt-0 md:w-1/2 text-white text-center md:text-left">
                 <h1 className="text-4xl md:text-5xl font-bold">{anime.title}</h1>
                 <p className="mt-3 text-sm md:text-base">{anime.synopsis?.substring(0, 150)}...</p>
 
@@ -62,8 +62,9 @@ const AnimeCarousel = () => {
                 </div>
 
                 <Link to={`/anime/${anime.mal_id}`}>
-                  <button className="cursor-pointer mt-5 px-5 py-2 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600">
-                    Putar Sekarang
+                  <button className="cursor-pointer mt-5 px-5 py-2 bg-blue-500 font-semibold md:text-xl text-white rounded-sm shadow-lg hover:bg-blue-600 justify-center items-center">
+                  <i className="ai-play fill-current  brightness-0 invert text-white mr-2 md:text-xl"></i>
+                     Watch Now
                   </button>
                 </Link>
               </div>
@@ -73,7 +74,7 @@ const AnimeCarousel = () => {
                 <img
                   src={anime.images.jpg.large_image_url}
                   alt={anime.title}
-                  className="max-h-[400px] md:max-h-[600px] object-contain drop-shadow-2xl rounded-xl cursor-pointer"
+                  className="max-h-[400px] md:max-h-[600px] mt-5 sm:mt-0 object-contain drop-shadow-2xl rounded-xl cursor-pointer"
                 />
               </Link>
             </div>
@@ -83,7 +84,7 @@ const AnimeCarousel = () => {
 
       {/* Hasil Pencarian */}
       {searchResults.length > 0 && (
-        <div className="absolute top-[80px] left-1/2 transform -translate-x-1/2 bg-gray-900 text-white rounded-lg p-4 w-[300px] max-h-[300px] overflow-auto z-50 shadow-xl border border-blue-600">
+        <div className="absolute top-[70px] left-1/2 transform -translate-x-1/2 bg-gray-900 text-white rounded-lg p-4 w-[300px] max-h-[300px] overflow-auto z-50 shadow-xl border border-blue-600">
           <h3 className="text-lg font-bold mb-2 text-center text-blue-400">Hasil Pencarian:</h3>
           {searchResults.map((anime) => (
             <Link
