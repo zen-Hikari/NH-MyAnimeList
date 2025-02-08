@@ -29,7 +29,7 @@
 Sebelum memulai, pastikan Anda telah menginstal hal-hal berikut:
 
 - **Node.js**: Versi terbaru dari [Node.js](https://nodejs.org/).
-- **npm** atau **yarn**: Manajer paket untuk mengelola dependensi.
+- **pnpm**: Manajer paket untuk mengelola dependensi.
 
 ---
 
@@ -41,3 +41,4 @@ Clone repositori ini ke dalam komputer Anda:
 
 ```bash
 git clone https://github.com/username/my-anime-list.git
+```
