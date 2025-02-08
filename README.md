@@ -1,35 +1,43 @@
-# My Anime List - React + Vite
+# 🚀 My Anime List
 
-**My Anime List** is a sleek, fast, and interactive anime catalog application built using **React** and **Vite**. Explore your favorite anime, discover new titles, watch trailers, and engage with the anime community using the integrated **Disqus** comment system.
-
-This project pulls anime data from the powerful [Jikan API](https://jikan.moe/) and offers a seamless user experience with fast refresh and a modern, responsive design.
+**My Anime List** adalah aplikasi open-source yang memungkinkan Anda menjelajahi, mencari, dan menonton anime favorit dengan informasi terperinci dan harga real-time dari Jikan API. Aplikasi ini juga dilengkapi dengan integrasi komentar melalui Disqus, sehingga Anda dapat berinteraksi dengan pengguna lain.
 
 ---
 
-## 🚀 Features
+## 📱 Fitur Utama
 
-- **Anime Information**: View detailed anime information, including title, synopsis, genres, producers, and more.
-- **Watch Trailers**: Access YouTube trailers of the latest anime directly from the app.
-- **Responsive Design**: Mobile-first design optimized for all screen sizes.
-- **Disqus Integration**: A fully functional Disqus comment section for user engagement.
-- **Fast Development**: Built using **Vite** for rapid build and refresh times.
-
----
-
-## 🛠️ Technologies Used
-
-- **React**: A JavaScript library for building fast, interactive UIs.
-- **Vite**: A next-gen build tool that delivers blazing fast builds and hot module replacement (HMR).
-- **Jikan API**: A free API for fetching data from MyAnimeList.
-- **Tailwind CSS**: Utility-first CSS framework for custom styling.
-- **Disqus**: Comment system for user interaction.
+- 🔍 **Cari Anime**: Temukan anime favorit Anda dengan informasi lengkap dan gambar berkualitas tinggi.
+- 🎬 **Tonton Trailer**: Saksikan trailer anime favorit Anda langsung di aplikasi.
+- 📝 **Sinopsis dan Detail**: Lihat sinopsis, genre, produser, dan informasi terkait anime.
+- 💬 **Komentar dengan Disqus**: Berinteraksi dengan penggemar anime lainnya melalui komentar.
+- 🌐 **Desain Responsif**: Antarmuka yang modern dan responsif, nyaman digunakan di perangkat apapun.
 
 ---
 
-## 🏁 Getting Started
+## 🛠 Teknologi yang Digunakan
 
-### 1. Clone the repository
+- **React**: Library JavaScript untuk membangun antarmuka pengguna interaktif.
+- **Vite**: Build tool yang super cepat untuk pengembangan aplikasi React.
+- **Tailwind CSS**: Framework CSS untuk desain yang cepat, fleksibel, dan responsif.
+- **Jikan API**: API untuk mengambil data anime dari MyAnimeList.
+- **Disqus**: Sistem komentar untuk interaksi pengguna.
+
+---
+
+## 🔧 Prasyarat
+
+Sebelum memulai, pastikan Anda telah menginstal hal-hal berikut:
+
+- **Node.js**: Versi terbaru dari [Node.js](https://nodejs.org/).
+- **npm** atau **yarn**: Manajer paket untuk mengelola dependensi.
+
+---
+
+## 🚀 Cara Memulai
+
+### 1. Clone Repositori
+
+Clone repositori ini ke dalam komputer Anda:
 
 ```bash
-git clone https://github.com/your-username/my-anime-list.git
-```
+git clone https://github.com/username/my-anime-list.git
